@@ -3,7 +3,7 @@
     private static $server = 'localhost';
     private static $db = 'proyectos';
     private static $user = 'root';
-    private static $password = 'root';
+    private static $password = 'sql123';
 
     public static function connectDB(){
       try {
