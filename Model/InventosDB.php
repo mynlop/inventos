@@ -1,9 +1,9 @@
 <?php
   abstract class InventosDB{
     private static $server = 'localhost';
-    private static $db = 'proyectos';
+    private static $db = 'inventos';
     private static $user = 'root';
-    private static $password = 'sql123';
+    private static $password = 'root';
 
     public static function connectDB(){
       try {
